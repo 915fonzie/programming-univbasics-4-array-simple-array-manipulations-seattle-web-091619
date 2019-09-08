@@ -18,6 +18,10 @@ def using_shift(array)
   array.shift
 end
 
+def shift_with_args(array)
+  array.shift(2)  
+end
+
 def using_concat(arg1,arg2)
   array.concat(arg1,arg2)
 end
@@ -39,5 +43,5 @@ def using_delete(array,string)
 end
 
 def using_delete_at(array, item_to_delete)
-  array.delete_at(item_to_delete, array)
+  array.delete_at(array, item_to_delete)
 end
