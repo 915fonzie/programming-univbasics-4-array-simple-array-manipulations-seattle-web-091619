@@ -22,10 +22,22 @@ def using_concat(arg1,arg2)
   array.concat(arg1,arg2)
 end
 
-def using_insert()
+def using_insert(array, new_element)
+  array.insert(new_element, 3)
+end
+
+def using_uniq()
   
 end
 
+def using_flatten()
+  
+end
 
+def using_delete()
+  
+end
 
-
+def using_delete_at()
+  
+end
